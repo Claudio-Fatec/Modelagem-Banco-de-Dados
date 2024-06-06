@@ -72,7 +72,7 @@ Descrição: Um reino pode ter vários lutadores, mas cada lutador pertence a um
 <img src='imagens/LOGICO MK.PNG'>
 
 20 inserções de dados na tabela "lutador"
-
+````sql
  INSERT INTO Lutador(Id, Nome, Reino_de_origem, Idade, Genero, Forca, Agilidade, Estilo_de_Luta) VALUES
 (8, 'Johnny Cage', 'Earthrealm', 35, 'Masculino', 78, 85, 'Karate, Shinto-Ryu'),
 (9, 'Mileena', 'Outworld', 10000, 'Feminino', 85, 90, 'Mian Chuan, Saibukan'),
