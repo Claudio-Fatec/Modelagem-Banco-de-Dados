@@ -51,3 +51,24 @@ Reino: Descreve os diferentes reinos presentes no universo Mortal Kombat.
 
 <img src='imagens/Conceitual_ MK.png'>
 
+Relacionamentos:
+Lutador - Luta:
+
+Relacionamento: Um para Muitos (1
+)
+Descrição: Um lutador pode participar de várias lutas, mas cada luta envolve dois lutadores. Isso é representado pelos campos ID do Lutador 1 e ID do Lutador 2 na tabela Luta, que fazem referência à tabela Lutador.
+Torneio - Luta:
+
+Relacionamento: Um para Muitos (1
+)
+Descrição: Um torneio pode ter várias lutas. A tabela Luta tem um campo ID do Torneio que faz referência à tabela Torneio.
+Torneio - Premiação:
+
+Relacionamento: Um para Muitos (1
+)
+Descrição: Um torneio pode ter várias premiações, mas cada premiação está associada a um único torneio. A tabela Premiação tem um campo ID do Torneio que faz referência à tabela Torneio.
+Reino - Lutador:
+
+Relacionamento: Um para Muitos (1
+)
+Descrição: Um reino pode ter vários lutadores, mas cada lutador pertence a um único reino. Este relacionamento é representado pelo campo Reino de origem na tabela Lutador que faz referência à tabela Reino.
