@@ -93,3 +93,10 @@ Descrição: Um reino pode ter vários lutadores, mas cada lutador pertence a um
 (24, 'Bo Rai Cho', 'Outworld', 45, 'Masculino', 92, 70, 'Drunken Fist, Judo'),
 (25, 'Kenshi', 'Earthrealm', 35, 'Masculino', 85, 80, 'Sento, Tai Chi'),
 (26, 'Frost', 'Earthrealm', 25, 'Feminino', 80, 85, 'Lin Kuei, Jujutsu');
+
+
+CREATE TABLE Premiacao(
+    Id_Premiacao INT PRIMARY KEY,
+    Id_T INT,
+    Premio VARCHAR (50)
+);
