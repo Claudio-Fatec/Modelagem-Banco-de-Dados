@@ -67,3 +67,6 @@ Descrição: Um torneio pode ter várias premiações, mas cada premiação est�
 Reino - Lutador:
 Relacionamento: Um para Muitos 
 Descrição: Um reino pode ter vários lutadores, mas cada lutador pertence a um único reino. Este relacionamento é representado pelo campo Reino de origem na tabela Lutador que faz referência à tabela Reino.
+
+
+<img src='imagens/LOGICO MK.PNG'>
