@@ -48,3 +48,6 @@ Torneio: Detalha os torneios realizados, incluindo nome, local, data de início 
 Luta: Registra as lutas realizadas em cada torneio, identificando os lutadores e o resultado.
 Premiação: Especifica os prêmios dados em cada torneio.
 Reino: Descreve os diferentes reinos presentes no universo Mortal Kombat.
+
+<img src='imagens/Conceitual_ MK.png'>
+
