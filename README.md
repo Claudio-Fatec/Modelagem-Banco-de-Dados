@@ -70,3 +70,26 @@ Descrição: Um reino pode ter vários lutadores, mas cada lutador pertence a um
 
 3 - Modelagem Lógica 
 <img src='imagens/LOGICO MK.PNG'>
+
+20 inserções de dados na tabela "lutador"
+
+ INSERT INTO Lutador(Id, Nome, Reino_de_origem, Idade, Genero, Forca, Agilidade, Estilo_de_Luta) VALUES
+(8, 'Johnny Cage', 'Earthrealm', 35, 'Masculino', 78, 85, 'Karate, Shinto-Ryu'),
+(9, 'Mileena', 'Outworld', 10000, 'Feminino', 85, 90, 'Mian Chuan, Saibukan'),
+(10, 'Kung Lao', 'Earthrealm', 32, 'Masculino', 85, 88, 'Mantis, Shaolin Fist'),
+(11, 'Shang Tsung', 'Outworld', 1000, 'Masculino', 80, 70, 'Crane, Snake'),
+(12, 'Quan Chi', 'Netherrealm', 500, 'Masculino', 82, 75, 'Escrima, Tang Soo Do'),
+(13, 'Shao Kahn', 'Outworld', 10000, 'Masculino', 95, 70, 'Wrasslin, Tai Chi'),
+(14, 'Kano', 'Earthrealm', 42, 'Masculino', 85, 80, 'Xing Yi, Aikido'),
+(15, 'Reptile', 'Zaterra', 1500, 'Masculino', 78, 85, 'Hung Gar, Crab Kung Fu'),
+(16, 'Ermac', 'Outworld', 500, 'Masculino', 85, 82, 'Choy Li Fut, Telekinesis'),
+(17, 'Jade', 'Edenia', 10000, 'Feminino', 78, 90, 'Fan Zi, Bojutsu'),
+(18, 'Noob Saibot', 'Netherrealm', 32, 'Masculino', 90, 85, 'Hapkido, Ninjutsu'),
+(19, 'Kabal', 'Earthrealm', 30, 'Masculino', 82, 88, 'Caberra, Bojutsu'),
+(20, 'Sindel', 'Edenia', 10000, 'Feminino', 88, 75, 'Zha Chuan, Ba Gua'),
+(21, 'Nightwolf', 'Earthrealm', 35, 'Masculino', 85, 80, 'Apache, Judo'),
+(22, 'Fujin', 'Heavens', NULL, 'Masculino', 90, 88, 'Jujutsu, Fu Jow Pai'),
+(23, 'Tanya', 'Edenia', 1000, 'Feminino', 78, 85, 'Kobujutsu, Mian Chuan'),
+(24, 'Bo Rai Cho', 'Outworld', 45, 'Masculino', 92, 70, 'Drunken Fist, Judo'),
+(25, 'Kenshi', 'Earthrealm', 35, 'Masculino', 85, 80, 'Sento, Tai Chi'),
+(26, 'Frost', 'Earthrealm', 25, 'Feminino', 80, 85, 'Lin Kuei, Jujutsu');
