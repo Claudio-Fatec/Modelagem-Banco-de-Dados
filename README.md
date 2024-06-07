@@ -201,3 +201,70 @@ INSERT INTO Reino (Id_R, Nome__Reino, Descricao) VALUES
 ### 2. READ (Ler)
 Vamos fazer algumas consultas para ler os dados das tabelas:
 
+-- Consultar todos os lutadores
+SELECT * FROM Lutador;
+
+-- Consultar todas as lutas do torneio de Shang Tsung
+SELECT * FROM Luta WHERE Id_T = 1;
+
+-- Consultar todos os torneios
+SELECT * FROM Torneio;
+
+-- Consultar todas as premiações
+SELECT * FROM Premiacao;
+
+-- Consultar todos os reinos
+SELECT * FROM Reino;
+
+3. UPDATE (Atualizar)
+Vamos atualizar alguns dados nas tabelas:
+
+-- Atualizar a força de Scorpion
+UPDATE Lutador
+SET Forca = 92
+WHERE Nome = 'Scorpion';
+
+-- Atualizar o local do torneio de Outworld
+UPDATE Torneio
+SET Local = 'Novo Outworld'
+WHERE Nome_Torneio = 'Mortal Kombat - Torneio de Outworld';
+
+-- Atualizar o resultado da primeira luta
+UPDATE Luta
+SET Resultado = 'Vitória do Lutador 2'
+WHERE Id_L = 1 AND Id_T = 1;
+
+-- Atualizar o prêmio do torneio de Earthrealm
+UPDATE Premiacao
+SET Premio = 'Novo Trofeu de Earthrealm'
+WHERE Id_T = 3;
+
+-- Atualizar a descrição do reino de Netherrealm
+UPDATE Reino
+SET Descricao = 'Um reino infernal repleto de demônios e almas condenadas.'
+WHERE Nome__Reino = 'Netherrealm';
+
+4. DELETE (Deletar)
+Vamos deletar alguns dados das tabelas:
+
+-- Deletar o lutador 'Raiden'
+DELETE FROM Lutador
+WHERE Nome = 'Raiden';
+
+-- Deletar o torneio de Edenia
+DELETE FROM Torneio
+WHERE Nome_Torneio = 'Mortal Kombat - Torneio de Edenia';
+
+-- Deletar uma luta específica
+DELETE FROM Luta
+WHERE Id_L = 2 AND Id_T = 1 AND ID__Lutador_2 = 4;
+
+-- Deletar a premiação do torneio dos Deuses Anciões
+DELETE FROM Premiacao
+WHERE Id_T = 5;
+
+-- Deletar o reino de Chaosrealm
+DELETE FROM Reino
+WHERE Nome__Reino = 'Chaosrealm';
+
+
