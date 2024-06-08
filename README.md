@@ -304,3 +304,7 @@ Aqui estão 10 consultas SQL que utilizam seleção, filtro e ordenação para d
 
 9 - Explicação: Esta seleção relaciona todos os lutadores cadastrados
 <img src='imagens/seleção lutadores.PNG'>
+
+
+10 - Explicação: Esta seleção mostra todas as lutas realizadas no torneio com Id_T igual a 1 e as ordena pelo resultado.
+<img src='imagens/selecao todas as lutas realizadas no torneio 1.PNG'>
