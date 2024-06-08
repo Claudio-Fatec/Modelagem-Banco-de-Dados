@@ -246,3 +246,4 @@ DELETE FROM Reino
 WHERE Nome__Reino = 'Chaosrealm';
 
 
+Aqui estão 10 consultas SQL que utilizam seleção, filtro e ordenação para demonstrar a relação entre as tabelas do banco de dados "MortalKombat":
