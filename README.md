@@ -251,6 +251,8 @@ Aqui estão 10 consultas SQL que utilizam seleção, filtro e ordenação para d
 <img src='imagens/seleção apenas lutadores com letra L no nome.PNG'>
 Explicação: Esta seleção mostra apenas lutadores que contém a letre L no nome.
 
+
+
 <img src='imagens/selecionado apenas onde o vencedor for o lutador 1.PNG'>
 Explicação: Esta seleção mostra apenas quando o vencedor da luta for "lutador 1"
 
