@@ -257,21 +257,25 @@ Explicação: Esta seleção mostra apenas lutadores que contém a letre L no no
 
 <img src='imagens/selecionado apenas onde o vencedor for o lutador 1.PNG'>
 Explicação: Esta seleção mostra apenas quando o vencedor da luta for "lutador 1"
+<br> <br> <br>
 
 <img src='imagens/seleção contagem de lutarores.PNG'>
 Explicação: Esta seleção faz a contagem do total de lutadores inseridos.
 
+<br> <br> <br>
+
 <img src='imagens/seleção de lutadores masculino com idade acima de 30.PNG'>
 Explicação: Esta seleção faz a listagem de lutadores masculinos com idade acima de 30 anos.
+<br> <br> <br>
 
 <img src='imagens/seleção de torneio.PNG'>
 Explicação: Esta seleção mostra todos os torneios cadastrados
-
+<br> <br> <br>
 <img src='imagens/seleção dos reinos.PNG'>
 Explicação: Esta seleção mostra tods os reinos cadastrados
-
+<br> <br> <br>
 <img src='imagens/seleção lutadores por força do maior para o menor.PNG'>
 Explicação: Esta seleção faz uma listagem de todos os lutadores ordenados por força do maior para o menor.
-
+<br> <br> <br>
 <img src='imagens/seleção lutadores que forem do reino Earthrealm.PNG'>
 Explicação: Esta seleção mostra todos os lutadores que forem do Reino Earthrealm
