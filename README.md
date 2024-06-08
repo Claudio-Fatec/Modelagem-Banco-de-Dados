@@ -248,55 +248,56 @@ WHERE Nome__Reino = 'Chaosrealm';
 
 Aqui estão 10 consultas SQL que utilizam seleção, filtro e ordenação para demonstrar a relação entre as tabelas do banco de dados "MortalKombat":
 
-<img src='imagens/seleção apenas lutadores com letra L no nome.PNG'>
 1 - Explicação: Esta seleção mostra apenas lutadores que contém a letre L no nome.
+<img src='imagens/seleção apenas lutadores com letra L no nome.PNG'>
 
 
 
 
 
-<img src='imagens/selecionado apenas onde o vencedor for o lutador 1.PNG'>
 2 - Explicação: Esta seleção mostra apenas quando o vencedor da luta for "lutador 1"
+<img src='imagens/selecionado apenas onde o vencedor for o lutador 1.PNG'>
 
 
 
 
 
 
-<img src='imagens/seleção contagem de lutarores.PNG'>
 3 - Explicação: Esta seleção faz a contagem do total de lutadores inseridos.
+<img src='imagens/seleção contagem de lutarores.PNG'>
 
 
 
 
 
 
-<img src='imagens/seleção de lutadores masculino com idade acima de 30.PNG'>
 4 - Explicação: Esta seleção faz a listagem de lutadores masculinos com idade acima de 30 anos.
+<img src='imagens/seleção de lutadores masculino com idade acima de 30.PNG'>
 
 
 
 
-<img src='imagens/seleção de torneio.PNG'>
 5 - Explicação: Esta seleção mostra todos os torneios cadastrados
+<img src='imagens/seleção de torneio.PNG'>
 
 
 
 
 
-<img src='imagens/seleção dos reinos.PNG'>
 6 - Explicação: Esta seleção mostra tods os reinos cadastrados
+<img src='imagens/seleção dos reinos.PNG'>
 
 
 
 
 
-<img src='imagens/seleção lutadores por força do maior para o menor.PNG'>
 7 - Explicação: Esta seleção faz uma listagem de todos os lutadores ordenados por força do maior para o menor.
+<img src='imagens/seleção lutadores por força do maior para o menor.PNG'>
 
 
 
 
 
-<img src='imagens/seleção lutadores que forem do reino Earthrealm.PNG'>
 8 - Explicação: Esta seleção mostra todos os lutadores que forem do Reino Earthrealm
+<img src='imagens/seleção lutadores que forem do reino Earthrealm.PNG'>
+
