@@ -301,3 +301,6 @@ Aqui estão 10 consultas SQL que utilizam seleção, filtro e ordenação para d
 8 - Explicação: Esta seleção mostra todos os lutadores que forem do Reino Earthrealm
 <img src='imagens/seleção lutadores que forem do reino Earthrealm.PNG'>
 
+
+9 - Explicação: Esta seleção relaciona todos os lutadores cadastrados
+<img src='imagens/seleção lutadores.PNG'>
