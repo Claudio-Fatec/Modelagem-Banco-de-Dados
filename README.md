@@ -176,6 +176,8 @@ INSERT INTO Reino (Id_R, Nome__Reino, Descricao) VALUES
 (7, 'Orderrealm', 'Um reino de ordem estrita e controle, governado pelos Seidan Guard.'),
 (8, 'Dreamrealm', 'Um reino acessível apenas através de sonhos, habitado por seres oníricos.');
 
+```
+
 ### 2. READ (Ler)
 Vamos fazer algumas consultas para ler os dados das tabelas:
 
