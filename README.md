@@ -89,7 +89,7 @@ CREATE TABLE Lutador(
     Agilidade INT,
     Estilo_de_Luta VARCHAR (50)
 );
-
+```sql
 -- Inserindo dados na tabela Lutador
 INSERT INTO Lutador(Id, Nome, Reino_de_origem, Idade, Genero, Forca, Agilidade, Estilo_de_Luta) VALUES
 (1, 'Scorpion', 'Netherrealm', 32, 'Masculino', 90, 85, 'Hapkido, Pi Gua, Ninjutsu'),
