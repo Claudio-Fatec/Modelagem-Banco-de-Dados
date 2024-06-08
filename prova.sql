@@ -237,3 +237,9 @@ SELECT * FROM Premiacao WHERE Id_T IN (SELECT Id_T FROM Torneio WHERE Local = 'E
 SELECT * FROM Luta WHERE Resultado = 'Vitória do Lutador 1';
 
 SELECT * FROM Lutador WHERE Genero = 'Masculino' AND Idade > 30;
+
+SELECT*FROM Lutador WHERE Nome LIKE '%L%';
+
+SELECT * FROM Luta
+WHERE Id_T = 1
+ORDER BY Resultado;
